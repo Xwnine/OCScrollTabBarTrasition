@@ -14,6 +14,9 @@
 		499D30291CF7439900448BB2 /* OCScrollTabBarTrasition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 499D30271CF7439900448BB2 /* OCScrollTabBarTrasition.xcdatamodeld */; };
 		499D302B1CF7439900448BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499D302A1CF7439900448BB2 /* Assets.xcassets */; };
 		499D302E1CF7439900448BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499D302C1CF7439900448BB2 /* LaunchScreen.storyboard */; };
+		499D30371CF7453700448BB2 /* ScrollTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D30361CF7453700448BB2 /* ScrollTabBarViewController.m */; };
+		499D303A1CF7455E00448BB2 /* TabBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D30391CF7455E00448BB2 /* TabBarTransition.m */; };
+		499D303D1CF7458200448BB2 /* CustomTabBarTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 499D303C1CF7458200448BB2 /* CustomTabBarTransitionDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,12 @@
 		499D302A1CF7439900448BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		499D302D1CF7439900448BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		499D302F1CF7439900448BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499D30351CF7453700448BB2 /* ScrollTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTabBarViewController.h; sourceTree = "<group>"; };
+		499D30361CF7453700448BB2 /* ScrollTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollTabBarViewController.m; sourceTree = "<group>"; };
+		499D30381CF7455E00448BB2 /* TabBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarTransition.h; sourceTree = "<group>"; };
+		499D30391CF7455E00448BB2 /* TabBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarTransition.m; sourceTree = "<group>"; };
+		499D303B1CF7458200448BB2 /* CustomTabBarTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarTransitionDelegate.h; sourceTree = "<group>"; };
+		499D303C1CF7458200448BB2 /* CustomTabBarTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarTransitionDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +73,12 @@
 				499D301F1CF7439900448BB2 /* AppDelegate.m */,
 				499D30211CF7439900448BB2 /* ViewController.h */,
 				499D30221CF7439900448BB2 /* ViewController.m */,
+				499D30351CF7453700448BB2 /* ScrollTabBarViewController.h */,
+				499D30361CF7453700448BB2 /* ScrollTabBarViewController.m */,
+				499D30381CF7455E00448BB2 /* TabBarTransition.h */,
+				499D30391CF7455E00448BB2 /* TabBarTransition.m */,
+				499D303B1CF7458200448BB2 /* CustomTabBarTransitionDelegate.h */,
+				499D303C1CF7458200448BB2 /* CustomTabBarTransitionDelegate.m */,
 				499D30241CF7439900448BB2 /* Main.storyboard */,
 				499D302A1CF7439900448BB2 /* Assets.xcassets */,
 				499D302C1CF7439900448BB2 /* LaunchScreen.storyboard */,
@@ -152,9 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499D303A1CF7455E00448BB2 /* TabBarTransition.m in Sources */,
+				499D303D1CF7458200448BB2 /* CustomTabBarTransitionDelegate.m in Sources */,
 				499D30231CF7439900448BB2 /* ViewController.m in Sources */,
 				499D30201CF7439900448BB2 /* AppDelegate.m in Sources */,
 				499D30291CF7439900448BB2 /* OCScrollTabBarTrasition.xcdatamodeld in Sources */,
+				499D30371CF7453700448BB2 /* ScrollTabBarViewController.m in Sources */,
 				499D301D1CF7439900448BB2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
